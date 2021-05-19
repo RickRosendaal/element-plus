@@ -32,7 +32,7 @@ import { elFormKey, elFormItemKey } from '@element-plus/form'
 import type { PropType } from 'vue'
 import type { ElFormContext, ElFormItemContext } from '@element-plus/form'
 
-type IButtonType = PropType<'primary' | 'secondary' | 'success' | 'warning' | 'danger' | 'info' | 'text' | 'default'>
+type IButtonType = PropType<'primary' | 'secondary' | 'cta' | 'success' | 'warning' | 'danger' | 'info' | 'text' | 'default'>
 type IButtonNativeType = PropType<'button' | 'submit' | 'reset'>
 
 interface IButtonProps {
@@ -62,6 +62,7 @@ export default defineComponent({
           'default',
           'primary',
           'secondary',
+          'cta',
           'success',
           'warning',
           'info',

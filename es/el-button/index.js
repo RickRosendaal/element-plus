@@ -14,6 +14,7 @@ var script = defineComponent({
                     'default',
                     'primary',
                     'secondary',
+                    'cta',
                     'success',
                     'warning',
                     'info',

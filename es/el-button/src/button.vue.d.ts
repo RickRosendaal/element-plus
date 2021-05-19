@@ -1,7 +1,7 @@
 import type { PropType } from 'vue';
 declare const _default: import("vue").DefineComponent<{
     type: {
-        type: PropType<"primary" | "secondary" | "success" | "warning" | "danger" | "info" | "text" | "default">;
+        type: PropType<"primary" | "secondary" | "cta" | "success" | "warning" | "danger" | "info" | "text" | "default">;
         default: string;
         validator: (val: string) => boolean;
     };
