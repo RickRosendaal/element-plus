@@ -13,6 +13,7 @@ var script = defineComponent({
                 return [
                     'default',
                     'primary',
+                    'secondary',
                     'success',
                     'warning',
                     'info',
